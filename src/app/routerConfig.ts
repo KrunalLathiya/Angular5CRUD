@@ -5,7 +5,7 @@ import { CreateComponent } from './components/create/create.component';
 import { EditComponent } from './components/edit/edit.component';
 import { IndexComponent } from './components/index/index.component';
 
-const appRoutes: Routes = [
+export const appRoutes: Routes = [
   { path: 'create',
     component: CreateComponent
   },
@@ -17,4 +17,3 @@ const appRoutes: Routes = [
     component: IndexComponent
   }
 ];
-export default appRoutes;
